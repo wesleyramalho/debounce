@@ -6,6 +6,8 @@ In this example the alert happens only one time after 2000 milliseconds, regardl
 
 
 ```javascript
+import debounce from './debounce.js';
+
  const handleSearch = debounce(typing => {
     alert(typing);
   }, 2000);
