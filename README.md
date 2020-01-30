@@ -2,7 +2,7 @@
 A personal implementation of debounce in JavaScript
 
 ## Usage example
-In this example the alert happens only after 2000 milliseconds after the user iteration stops.
+In this example the alert happens only one time after 2000 milliseconds, regardless of the amount of user interactions until it stops.
 
 ```javascript
  const handleSearch = debounce(typing => {
